@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="css/reArrange.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');  
+</style>
+<body>
+    <h1>Inside the International Space Station!</h1>
+    <h2>Spinning around in orbit can throw things off...who do we have here?</h2>
+    <!--This should look famililar...I liked the drag and drop exercise we did back in lesson 6!
+    This time, I continued with the space theme and chose a nice photo of the first all-female Space Crew  on the ISS.
+    I decided to make this a "game" in the sense that there is a challenge. I accomplished this by turning the pieces
+    up-side down. I need to re-work how the images appear in the container as they are a bit smunched together at the start-->
+    <section class="container" style="background-image: url('media/earthFromSpace.jpg');">
+    <p id="MoveMe1"><img src="media/iss2.jpg"></p>          
+    <p id="MoveMe2"><img src="media/iss5.jpg"></p>
+    <p id="MoveMe3"><img src="media/iss7.jpg"></p>
+    <p id="MoveMe4"><img src="media/iss4.jpg"></p>
+    <p id="MoveMe5"><img src="media/iss1.jpg"></p>
+    <p id="MoveMe6"><img src="media/iss9.jpg"></p>
+    <p id="MoveMe7"><img src="media/iss6.jpg"></p>
+    <p id="MoveMe8"><img src="media/iss8.jpg"></p>
+    <p id="MoveMe9"><img src="media/iss3.jpg"></p>
+    </section>
+    <section class="hint">
+        <p>Need a hint?</p>
+    <!--I also really liked the modal window we worked on in this last assignment. This was a no-brainer way to incorporate
+    the window into my games. The hint feautre is great because it challenges you to memorize the image instead of being able 
+    to refer to it as you build the pieces together-->
+    <button id="hintButton" style="float: right;">CLICK FOR HINT</button>
+    <div id="hintModal" class="modal">
+    <div class="modal-content">
+        <span class="exit">&times;</span>
+        <p id="modalP">this should help...</p>
+        <img src='media/iss.jpg'>
+    </div>
+</section>
+    </div>
+    <script src="js/reArrange.js"></script>
+ </body>
+ </html>

@@ -1,0 +1,65 @@
+header{
+    font-family: "Press Start 2P";
+    background-color: purple;
+    text-align: center;
+    justify-content: center;
+    padding: 1px 1px 1px 1px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}   
+   p,h3{
+    text-align: center;
+    align-content: center;
+    color:white;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+    #map {
+    height: 400px;
+    width: 65%;
+    margin-left: 17%;
+    }
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    }
+    #button{
+    text-align: center;
+    margin-left: 43.5%;
+    margin-right: 43.5%;
+    margin-top: 2%;
+    }
+    a{
+        color:hotpink;
+    }
+    #vid{
+    margin-left: 28%;
+    margin-top: 5%;
+}
+#waterfallNo{
+    text-align: center;
+    margin-left: 43.5%;
+    margin-right: 43.5%;
+    margin-top: 2%;
+    }
+button:hover,#waterfallNo:hover, #waterfallYes:hover{
+    background-color: green;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+button{
+    margin-left: 30%;
+    margin-right: 0;
+}
+span{
+    margin-left: 1%;
+    margin-top: 2%;
+}
+img{
+    margin-left: 17%;
+    padding-top: 1%;
+}

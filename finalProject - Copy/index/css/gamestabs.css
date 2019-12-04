@@ -1,0 +1,158 @@
+
+.main,body{
+    background-color: black;
+}
+h1,h2{
+  text-align: center;
+}
+h1{
+  color: hotpink;
+  font-family: "Press Start 2P";
+}
+h2{
+  font-family: "Press Start 2P";
+  font-size: 1em;
+}
+h3{
+  font-size: .8em;
+}
+header{
+border: 2px grey;
+padding: 50px;
+text-align: center;
+font-size: 7em;
+font-family: 'Modak';
+color:white;
+text-shadow: 3px 3px grey;
+}
+#tab1,#tab2,#tab3,#tab4{
+    margin-right: 2%;
+    border-style: groove;
+}
+#tab1{
+    padding-left:3px;
+    padding-right: 3px;
+}
+.tab-control{
+    margin-right: 2%;
+}
+.tab-list {
+margin: 0;
+padding: 1px;
+align-content: center;
+justify-content: center;
+margin-left:30%;
+}
+
+.tab-list li {
+display: inline-block;
+list-style-type: none;
+background-color: red;
+font-family: 'Arial';
+}
+
+.tab-list li a {
+color: black;
+display: block;
+padding: 3px 7px 3px 7px;
+padding-top: 1px;
+padding-left: 20px;
+padding-right: 20px;
+text-decoration: none;
+}
+
+.tab-list li.active, .tab-list li.hover {
+background-color: dodgerblue;
+border-bottom: 4px solid orange;
+}
+.tab-list li a:hover {
+color: white;
+background-color: dodgerblue;
+box-shadow: 5px 10px 10px 10px rgba(219, 156, 20, 0.918),12px 10px 12px 17px rgba(226, 48, 48, 1); /*shawdow sizing referenced from W3 Schools*/
+background-color:dodgerblue;
+border-color: dodgerblue;
+font-family: 'Press Start 2P';
+cursor: crosshair;
+border-style:inset;
+font-size: 10px;
+}
+
+.tab-panel {
+display: none;
+background-color: black;
+padding-left: 5px;
+color: white;
+overflow: auto;
+border: orange;
+border-style: solid;
+padding-bottom: 2%;
+margin-top: 0;
+padding-left: 2%;
+}
+
+.tab-panel.active {
+display: block;
+}
+
+.tab-panel p {
+margin: 20px;
+}
+.button{
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding: 2px 1px 2px 1px;
+  margin-top: 1.5%;
+  background-color: dodgerblue;
+  color: white;
+  border-style: outset;
+  font-family: "Press Start 2P";
+}
+.button:hover{
+  background-color: green;
+  border-style: inset;
+  color: white;
+  font-family: "Press Start 2P";
+}
+
+#readme a:link{
+  text-decoration: none;
+  color: dodgerblue;
+}
+#readme a:link:hover{
+  color:red;
+  font-family: 'Press Start 2P';
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 5px;}
+
+/*@media only screen and(min-width:600px){
+  .col-m-1{width: 8.33%};
+  .col-m-2{width: 16.66%};
+  .col-m-3{width:25%};
+  .col-m-4{width: 33.33%};
+  .col-m-5{width:41.66%};
+  .col-m-6{width: 50%};
+  .col-m-7{width: 58.33%};
+  .col-m-8{width: 66.66%};
+  .col-m-9{width: 75%};
+  .col-m-10{width:83.33%};
+  .col-m-11{Width:91.66%};
+  .col-m-12{width: 100%};
+}
+@media only screen and (min-width: 768px){
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
